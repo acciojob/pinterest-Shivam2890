@@ -1,11 +1,11 @@
-.container{
+.hero{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container img{
     height: 300px;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
 .headline{
