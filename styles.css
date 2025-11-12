@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.headline{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: white;
+}
+.cta{
+    background: rgb(255, 71, 43);
+    padding: 6px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+
+}
